@@ -1,12 +1,12 @@
 # website-github
 
-const newCouple = 'Sonali & Gagan';
+const newCouple = 'Julia et Antoine';
 
-// Nov 29, 2020
-const weddingDate = new Date(2020, 11, 29);
+// Jul 04, 2026
+const weddingDate = new Date(2026, 07, 04);
 
 // Wedding venue: https://goo.gl/maps/5z5xX2hTYzU8VGEJ9
-const weddingVenue = new Location('Ashirwad Garden, Ranchi');
+const weddingVenue = new Location('Lieu-dit Botier, Quessoy, Côtes d'Armor');
 
 (function() {
     newCouple.willTieKnot(weddingDate);
